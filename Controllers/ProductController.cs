@@ -28,7 +28,7 @@ namespace test_B.Controllers
         {
             var data = _service.GetFakeProducts();
             return Ok(data);
-        }
+        } 
 
         [HttpGet("complex")]
         public IActionResult GetComplexData()
